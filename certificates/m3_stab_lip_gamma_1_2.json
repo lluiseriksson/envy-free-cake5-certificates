@@ -1,0 +1,61 @@
+{
+  "schema": "EF-CAKE5-CERT-1.0",
+  "mode": "stability_and_lipschitz_lemma317_318_cert",
+  "cert_id": "m3_stab_lip_gamma_1_2",
+  "gamma_hungry": "1/2",
+  "valuations": {
+    "breakpoints": [
+      "0",
+      "1/2",
+      "1"
+    ],
+    "densities_5": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ]
+  },
+  "anchor_m": "2/5",
+  "ell_star_m": [
+    "1/5",
+    "1/5",
+    "1/5",
+    "1/5"
+  ],
+  "ell_delta_m": [
+    "21/100",
+    "19/100",
+    "1/5",
+    "1/5"
+  ],
+  "delta": "1/100",
+  "anchor_m_prime": "9/20",
+  "ell_star_m_prime": [
+    "9/40",
+    "9/40",
+    "9/40",
+    "9/40"
+  ],
+  "claimed_stability_linf": "1/100",
+  "claimed_lemma317_bound": "6/25",
+  "claimed_anchor_shift_d": "1/20",
+  "claimed_lipschitz_linf": "1/40",
+  "claimed_lemma318_bound": "26/5"
+}

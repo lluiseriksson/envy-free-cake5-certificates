@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "log2_inv_eps": 2,
+      "tree_enum_L3": 8,
+      "nested_5_L5": 32,
+      "grid_brute_2p": 4
+    },
+    {
+      "log2_inv_eps": 3,
+      "tree_enum_L3": 27,
+      "nested_5_L5": 243,
+      "grid_brute_2p": 8
+    },
+    {
+      "log2_inv_eps": 4,
+      "tree_enum_L3": 64,
+      "nested_5_L5": 1024,
+      "grid_brute_2p": 16
+    },
+    {
+      "log2_inv_eps": 5,
+      "tree_enum_L3": 125,
+      "nested_5_L5": 3125,
+      "grid_brute_2p": 32
+    },
+    {
+      "log2_inv_eps": 6,
+      "tree_enum_L3": 216,
+      "nested_5_L5": 7776,
+      "grid_brute_2p": 64
+    },
+    {
+      "log2_inv_eps": 7,
+      "tree_enum_L3": 343,
+      "nested_5_L5": 16807,
+      "grid_brute_2p": 128
+    },
+    {
+      "log2_inv_eps": 8,
+      "tree_enum_L3": 512,
+      "nested_5_L5": 32768,
+      "grid_brute_2p": 256
+    },
+    {
+      "log2_inv_eps": 9,
+      "tree_enum_L3": 729,
+      "nested_5_L5": 59049,
+      "grid_brute_2p": 512
+    },
+    {
+      "log2_inv_eps": 10,
+      "tree_enum_L3": 1000,
+      "nested_5_L5": 100000,
+      "grid_brute_2p": 1024
+    }
+  ]
+}

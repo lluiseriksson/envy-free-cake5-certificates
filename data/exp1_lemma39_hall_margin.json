@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "subset_size_k": 1,
+      "raw_weight_lb_rat": "1/8",
+      "raw_weight_lb_float": 0.125,
+      "hall_required_k": 1,
+      "margin_above_k_minus_1": 0.125
+    },
+    {
+      "subset_size_k": 2,
+      "raw_weight_lb_rat": "5/4",
+      "raw_weight_lb_float": 1.25,
+      "hall_required_k": 2,
+      "margin_above_k_minus_1": 0.25
+    },
+    {
+      "subset_size_k": 3,
+      "raw_weight_lb_rat": "19/8",
+      "raw_weight_lb_float": 2.375,
+      "hall_required_k": 3,
+      "margin_above_k_minus_1": 0.375
+    },
+    {
+      "subset_size_k": 4,
+      "raw_weight_lb_rat": "7/2",
+      "raw_weight_lb_float": 3.5,
+      "hall_required_k": 4,
+      "margin_above_k_minus_1": 0.5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Certified Verification of Envy-Free Cake-Cutting for Five Agents",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "Filos-Ratsikas, Hollender, Latifian, and Tyrovolas (arXiv:2611.33149, Nov 2026) resolved the open polylogarithmic query-complexity problem for five-agent contiguous eps-envy-free cake cutting under monotone Lipschitz valuations in O(log^3(1/eps)) value queries and gave a Sperner-free existence proof via an anchor-cut, maximal-feasibility, leaving-agent Hall-robustness, softmax weight-balancing, and spanning-tree bisection architecture discovered with ChatGPT 6 Astra. We present a standalone zero-dependency Lean 4.35.0 formalization of 18 core combinatorial, Hall-margin, stability, Lipschitz, and bisection theorems (zero sorry, zero warnings, zero Classical.choice) paired with an exact-Q four-mode certificate verifier (EF-CAKE5-CERT-1.0). Across 16 canonical certificates (0.246-0.934 ms, total 7.80 ms), all invariants replay identically over Q while rejecting 60/60 live adversarial forgery attacks.",
+  "category": "cs.GT",
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repository_url": "https://github.com/lluiseriksson/envy-free-cake5-certificates",
+  "release_tag": "v1.0.0",
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by sole author Lluis Eriksson with AI coding, formalization, and drafting assistance from Google Antigravity; all Lean 4.35.0 proofs, exact-Q certificates, and adversarial tests were independently compiled and machine-verified locally.",
+  "target_reference": {
+    "arxiv_id": "2611.33149",
+    "authors": ["Aris Filos-Ratsikas", "Alexandros Hollender", "Mohamad Latifian", "Giannis Tyrovolas"],
+    "title": "Envy-Free Cake-Cutting for Five Agents",
+    "date": "2026-11-24"
+  }
+}

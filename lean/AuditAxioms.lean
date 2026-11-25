@@ -1,0 +1,20 @@
+import EnvyFreeCake5
+
+#print axioms EnvyFreeCake5.def31_maximality_zero_gap
+#print axioms EnvyFreeCake5.def31_six_pieces_sum_to_cake
+#print axioms EnvyFreeCake5.strong_hungriness_envy_transfer
+#print axioms EnvyFreeCake5.theorem2_eps_third_split
+#print axioms EnvyFreeCake5.lemma35_disconnected_contradiction
+#print axioms EnvyFreeCake5.lemma37_total_weight_five
+#print axioms EnvyFreeCake5.lemma39_softmax_hall_margin
+#print axioms EnvyFreeCake5.lemma39_hall_all_four_sizes
+#print axioms EnvyFreeCake5.lemma315_uniqueness_pigeonhole
+#print axioms EnvyFreeCake5.lemma317_three_interval_gap_bound
+#print axioms EnvyFreeCake5.lemma318_lipschitz_13_gamma_neg3
+#print axioms EnvyFreeCake5.lemma318_shift_4d_robust
+#print axioms EnvyFreeCake5.lemma42_tree_depth3_error
+#print axioms EnvyFreeCake5.lemma42_maximality_3delta
+#print axioms EnvyFreeCake5.lemma43_stability_factor_nine
+#print axioms EnvyFreeCake5.lemma44_outer_bisection_constants
+#print axioms EnvyFreeCake5.lemma44_favourite_to_eps_favourite
+#print axioms EnvyFreeCake5.theorem2_log3_beats_log5

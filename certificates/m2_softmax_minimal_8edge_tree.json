@@ -1,0 +1,83 @@
+{
+  "schema": "EF-CAKE5-CERT-1.0",
+  "mode": "softmax_weight_balance_lemma39_cert",
+  "cert_id": "m2_softmax_minimal_8edge_tree",
+  "weights_5x4": [
+    [
+      "61/64",
+      "1/64",
+      "1/64",
+      "1/64"
+    ],
+    [
+      "1/64",
+      "61/64",
+      "1/64",
+      "1/64"
+    ],
+    [
+      "1/64",
+      "1/64",
+      "61/64",
+      "1/64"
+    ],
+    [
+      "1/64",
+      "1/64",
+      "1/64",
+      "61/64"
+    ],
+    [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ]
+  ],
+  "fav_mask_5x4": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "claimed_piece_totals": [
+    "5/4",
+    "5/4",
+    "5/4",
+    "5/4"
+  ],
+  "claimed_max_nonfav_weight": "1/64",
+  "claimed_subset_min_fav_agents": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "claimed_hall_satisfied": true
+}

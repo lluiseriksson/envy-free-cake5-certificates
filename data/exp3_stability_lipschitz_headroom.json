@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "cert_id": "m3_stab_lip_uniform_g1",
+      "gamma": "1",
+      "stab_ratio": 0.166667,
+      "lip_ratio": 0.038462
+    },
+    {
+      "cert_id": "m3_stab_lip_uniform_shift_1_20",
+      "gamma": "1",
+      "stab_ratio": 0.166667,
+      "lip_ratio": 0.038462
+    },
+    {
+      "cert_id": "m3_stab_lip_gamma_1_2",
+      "gamma": "1/2",
+      "stab_ratio": 0.041667,
+      "lip_ratio": 0.004808
+    },
+    {
+      "cert_id": "m3_stab_lip_right_tight_g3_4",
+      "gamma": "3/4",
+      "stab_ratio": 0.09375,
+      "lip_ratio": 0.016226
+    }
+  ]
+}
