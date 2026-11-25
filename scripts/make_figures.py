@@ -71,21 +71,26 @@ def make_fig2() -> None:
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9.2, 3.5))
 
-    xs = range(len(d3))
+    xs = list(range(len(d3)))
     w = 0.34
     sr = [r["stab_ratio"] for r in d3]
     lr = [r["lip_ratio"] for r in d3]
     labs3 = [f"$\\gamma={r['gamma']}$\n(C{i+9})" for i, r in enumerate(d3)]
-    ax1.bar([x - w / 2 for x in xs], sr, width=w, color="#2b5c8f", label=r"$\|\ell-\ell^*\|_\infty / (3\gamma^{-3}\delta)$ (Lem. 3.17)")
-    ax1.bar([x + w / 2 for x in xs], lr, width=w, color="#c95b1d", label=r"$\|\ell^*(m)-\ell^*(m')\|_\infty / (13\gamma^{-3}d)$ (Lem. 3.18)")
+    b1 = ax1.bar([x - w / 2 for x in xs], sr, width=w, color="#2b5c8f", label=r"$\|\ell-\ell^*\|_\infty / (3\gamma^{-3}\delta)$ (Lem. 3.17)")
+    b2 = ax1.bar([x + w / 2 for x in xs], lr, width=w, color="#c95b1d", label=r"$\|\ell^*(m)-\ell^*(m')\|_\infty / (13\gamma^{-3}d)$ (Lem. 3.18)")
+    for bar, v in zip(b1, sr):
+        ax1.text(bar.get_x() + bar.get_width() / 2, v * 1.15, f"{v:.3f}", ha="center", va="bottom", fontsize=6.6, fontweight="bold", color="#1b3e63")
+    for bar, v in zip(b2, lr):
+        ax1.text(bar.get_x() + bar.get_width() / 2, v * 1.15, f"{v:.4f}" if v < 0.01 else f"{v:.3f}", ha="center", va="bottom", fontsize=6.6, fontweight="bold", color="#8c3b0e")
     ax1.axhline(1.0, color="#b22222", ls="--", lw=1.2, label="Theoretical ceiling $= 1$")
-    ax1.set_title("(a) Stability & Lipschitz Bound Headroom")
-    ax1.set_xticks(list(xs))
+    ax1.set_yscale("log")
+    ax1.set_title("(a) Non-Zero Stability & Lipschitz Ratios (Log Scale)")
+    ax1.set_xticks(xs)
     ax1.set_xticklabels(labs3)
-    ax1.set_ylabel("Exact ratio to theoretical ceiling")
-    ax1.set_ylim(0, 1.35)
+    ax1.set_ylabel("Exact ratio to ceiling (log scale)")
+    ax1.set_ylim(2e-3, 3.5)
     ax1.grid(True, axis="y", ls="--", alpha=0.35)
-    ax1.legend(loc="upper right", framealpha=0.94, fontsize=6.8)
+    ax1.legend(loc="upper right", framealpha=0.94, fontsize=6.6)
 
     from fractions import Fraction
     labs4 = ["Right Gap\nExact 0-EF", "Left Gap\nExact 0-EF", "Uniform\nExact 0-EF", "Bisected\n$\\varepsilon=1/25$"]

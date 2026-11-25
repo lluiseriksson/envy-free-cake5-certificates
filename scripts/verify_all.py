@@ -70,7 +70,7 @@ def audit_lean() -> None:
     lean_dir = ROOT / "lean"
     subprocess.run(["lake", "build"], cwd=lean_dir, check=True)
     proc = subprocess.run(
-        ["lake", "env", "lean", "AuditAxioms.lean"],
+        ["lake", "env", "lean", "-j", "1", "AuditAxioms.lean"],
         cwd=lean_dir,
         check=True,
         capture_output=True,
